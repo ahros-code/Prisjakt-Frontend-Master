@@ -1,0 +1,118 @@
+.menuSection > * {
+    width: 30px;
+    height: 30px;
+}
+
+.menuSection {
+    width: 56px;
+    text-align: center;
+}
+
+.mainSection > img {
+    width: 135px;
+    height: auto;
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #00ADDB;
+    padding: 15px 0;
+    z-index: 1000; /* Adjust z-index as needed */
+}
+
+
+.mainSectionWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1356px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginBtn {
+    display: flex;
+    border: medium;
+    outline: none;
+    margin: 0;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.12);
+    appearance: none;
+    position: relative;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: transparent 0 0, transparent 0 0;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    gap: 0.5rem;
+    padding: 10px 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: box-shadow 150ms, background-color 150ms, opacity 150ms;
+    width: max-content;
+}
+
+.loginBtn:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+    box-shadow: transparent 0 0, transparent 0 0;
+}
+
+.loginBtnText {
+    flex: 1 1 auto;
+    user-select: auto;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+    line-height: 1.42857;
+    /*font-weight: 600;*/
+    color: inherit;
+    opacity: 1;
+}
+
+.searchContainer {
+    position: relative;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 550px; /* Adjust width as needed */
+    padding-left: 16px;
+    padding-right: 55px;
+    border-radius: 4px;
+    outline: none;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px;
+    border: none;
+}
+
+
+input[type="text"]::-webkit-input-placeholder {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 12px;
+    border: none;
+    background-color: #FFD066; /* Adjust button color */
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+

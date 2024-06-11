@@ -1,0 +1,22 @@
+.wrapper {
+    position: fixed;
+    left: 0;
+    display: flex;
+    margin-top: -12px;
+    height: 100vh;
+    flex-direction: column;
+    flex-shrink: 0;
+    -moz-box-align: center;
+    align-items: center;
+    width: 3.5rem;
+    background-color: rgb(247, 248, 248);
+    padding: 0.5rem 0;
+    z-index: 105;
+}
+
+.sidebarIconsList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}

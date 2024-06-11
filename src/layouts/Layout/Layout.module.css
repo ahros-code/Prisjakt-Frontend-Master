@@ -1,0 +1,35 @@
+.container {
+    max-width: 996px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/*.mainSection {*/
+/*    display: flex;*/
+/*}*/
+
+/*.navbarSection {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*}*/
+
+
+.main {
+    margin-top: 80px;
+}
+
+.footerSection {
+    position: absolute;
+    bottom: 0;
+}
+
+/*.sidebar {*/
+/*    display: flex;*/
+/*}*/
+
+/*.sidebarDrawer {*/
+/*    width: 304px;*/
+/*    height: 100vh;*/
+/*    background-color: red;*/
+/*}*/
