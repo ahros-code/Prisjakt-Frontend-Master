@@ -1,0 +1,90 @@
+.title {
+    font-size: 1.40rem;
+    letter-spacing: 0;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #E6E8EA;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.card > img {
+    width: 72px;
+    height: 72px;
+}
+
+.card > p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.discounts {
+    background-image: url('https://pricespy-75b8.kxcdn.com/g/rfe/illustrations/spring-promotions-background-2000%C3%97438.png');
+    height: 205px;
+    background-size: contain;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.discountTitle {
+    font-size: 1.75rem;
+}
+
+.discountText {
+    max-width: 440px;
+    font-size: 1.125rem;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 304px;
+    width: 100%;
+    background: rgb(0, 52, 81);
+    display: flex;
+    border: medium;
+    outline: none;
+    overflow: visible;
+    appearance: none;
+    position: relative;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: rgba(5, 30, 46, 0.24) 0px 2px 4px 0px, transparent 0px 0px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    gap: 0.5rem;
+    padding: 10px 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: box-shadow 150ms, background-color 150ms, opacity 150ms;
+}
+
+.btnText {
+    flex: 1 1 auto;
+    user-select: auto;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+    line-height: 1.42857;
+    font-weight: 500;
+    color: inherit;
+}
+
+.wrapper {
+    margin-bottom: 40px;
+}

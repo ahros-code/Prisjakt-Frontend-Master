@@ -37,7 +37,7 @@
     -moz-box-pack: center;
     justify-content: center;
     border-radius: 8px;
-    box-shadow: transparent 0px 0px, transparent 0px 0px;
+    box-shadow: transparent 0 0, transparent 0px 0px;
     opacity: 1;
     color: rgb(5, 30, 46);
     gap: 0.5rem;
@@ -46,6 +46,7 @@
     user-select: none;
     transition: box-shadow 150ms, background-color 150ms, opacity 150ms;
     width: max-content;
+    margin-bottom: 25px;
 }
 
 .showMoreButton > span {
