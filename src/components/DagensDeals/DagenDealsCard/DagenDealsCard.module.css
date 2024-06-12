@@ -1,0 +1,141 @@
+.wrapper {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #E4E6E8;
+}
+
+.wrapper:hover {
+    box-shadow: rgb(230, 232, 234) 0 0 0 1px;
+}
+
+.image {
+    padding: 12px;
+    max-width: 180px;
+}
+
+.priceWrapper {
+    display: flex;
+    background-color: #F4FBFF;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.priceInfo {
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    line-height: 1.42857;
+    color: #007CB2;
+    font-weight: 500;
+}
+
+.top {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.threeDots {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #E4E6E8;
+}
+
+.threeDots:hover {
+    background-color: rgb(230, 232, 234);
+    transition: box-shadow 150ms, background-color 150ms, opacity 150ms;
+}
+
+.category {
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    line-height: 1.66667;
+    color: #4C5E69;
+    margin-bottom: 4px;
+}
+
+.title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.42857;
+    color: black;
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    color: #000;
+}
+
+.discount {
+    font-size: 14px;
+    color: rgb(235, 0, 59);
+    background-color: #FFF5F8;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.priceSec {
+    display: flex;
+    gap: 6px;
+    margin-top: 7px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.realPrice {
+    text-decoration: line-through;
+    color: #4B5D68;
+}
+
+.priceSecZr {
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
+    line-height: 1.42857;
+    color: #051E2E;
+}
+
+.priceSecFst {
+    color: #EB003B;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: 0;
+    /*line-height: 1.5;*/
+}
+
+.priceSecScnd {
+    color: #4B5D68;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    /*line-height: 1.5;*/
+}
+
+.shopName {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shopNameSpan {
+    font-size: 1rem;
+    color: #051E2E;
+    font-weight: 600;
+}
+
+.shopNamesSpan {
+    font-size: 0.90rem;
+    letter-spacing: 0.02em;
+    line-height: 1.66667;
+    color: #4B5D68;
+}

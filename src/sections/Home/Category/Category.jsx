@@ -34,7 +34,7 @@ const Category = () => {
                 {itemsToShow.map(category => (
                     <li key={category.id} className={css.categoriesItem}>
                         <img src={'https://pricespy-75b8.kxcdn.com/g/campaigns/4/se/banner_logo_big.png'} alt="icon" />
-                        <h3>{category.name}</h3>
+                        <span>{category.name}</span>
                     </li>
                 ))}
             </ul>
